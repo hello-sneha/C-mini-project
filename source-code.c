@@ -135,7 +135,7 @@ int main()
               printf(" Batsman        runs           balls        fours       sixes         sr   \n");
               printf("==========================================================================\n");
 
-              for(i=0;i<1;i++)
+              for(i=0;i<m;i++)
                 {
                     pl1[i].runs=(1*pl1[i].ones)+(2*pl1[i].twos)+(3*pl1[i].threes)+(4*pl1[i].fours)+(6*pl1[i].sixes);
                     pl3.toruns+=pl1[i].runs;
